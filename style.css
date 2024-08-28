@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    background-color: #336659;
+}
+
+#logo-name {
+    margin: 2rem;
+    width:90%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo-name > p {
+    font-size: calc(100% + 0.3rem);
+    width: 14.4rem;
+}
+
+#logo-name > p:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#about {
+    margin: 2rem;
+    font-size: calc(100% + 0.1rem);
+    color: white;
+}
+
+#about > p:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#about-me {
+    margin: 4.5rem 3rem 3rem;
+    text-align: center;
+    font-size: calc(100% + 0.75rem);
+    color: rgb(79, 75, 75);
+}
+
+#body-content {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem 5rem 1rem;
+}
+
+#footer {
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+    font-size: 3rem;
+}
+
+#footer > span {
+    margin: 0rem 2rem;
+}
+
+#footer > span:hover {
+    cursor: pointer;
+    color: #9f517f;
+}
+
+.redirects {
+    width: calc(100% - 1rem);
+}
+
+.skinabcs-website, .skinabcs-app, .desksense-app, .graphic-designs, .edited-videos, .chroma-game, .rps-game, .basic-calculator, .drawing-game {
+    border: 0.5rem solid #519f8c;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.skinabcs-website:hover, .skinabcs-app:hover, .desksense-app:hover, .graphic-designs:hover, .edited-videos:hover, .chroma-game:hover, .rps-game:hover, .basic-calculator:hover, .drawing-game:hover {
+    border: 0.7rem solid #9f517f;
+    border-radius: 1rem;
+}
+
+.skinabcs-website > p, .skinabcs-app > p, .desksense-app > p, .graphic-designs > p, .edited-videos > p, .chroma-game > p, .rps-game > p, .basic-calculator > p, .drawing-game > p {
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
